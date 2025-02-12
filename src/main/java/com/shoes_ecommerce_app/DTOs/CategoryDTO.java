@@ -12,5 +12,5 @@ public class CategoryDTO {
     private String categoryName;
     private String description;
     private String categoryTagline;
-    private String  brandName;
+    private Long  brandId;
 }

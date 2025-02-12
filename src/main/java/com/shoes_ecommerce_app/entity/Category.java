@@ -38,6 +38,9 @@ public class Category {
     @Column(name = "updated_by")
     private String updatedBy;
 
+    @Column(name = "updated_date")
+    private Timestamp updatedDate;
+
     @Column(name = "tagline")
     private String tagline;
 

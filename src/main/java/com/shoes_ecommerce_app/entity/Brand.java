@@ -35,7 +35,7 @@ public class Brand {
     private String createdBy;
 
     @Column(name = "created_date")
-    private Timestamp cCreatedDate;
+    private Timestamp createdDate;
 
     @Column(name = "modified_by")
     private String modifiedBy;
